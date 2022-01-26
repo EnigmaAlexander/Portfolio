@@ -1,0 +1,100 @@
+@media(max-width:1285px ){
+    body{
+        background-color: black;
+    }
+    .about-img>img{
+        width: 360px;
+        height: 630px;
+        transform: scale(0.8);
+    }
+    #about{
+        grid-template-rows: auto auto;
+        grid-template-columns: auto ;
+    }
+    .container{
+        grid-template-rows: 15vh 110vh auto 25vh auto 25vh 78vh 25vh auto 0px;
+        grid-template-columns: 0vw auto 0vw;
+    }
+    .form{
+        padding-left: 0px;
+        margin-top: 60px;
+    }
+    #contact-content{
+       flex-direction: column;
+    }
+    .projects-title>img{
+        width: 140px;
+    }
+    .arrow>img{
+        width: 30px;
+    }
+    .element1{
+        width: 100;
+    }
+    .title>span{
+        font-size: 12vw;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-contacts{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-contacts>a{
+        padding-bottom: 30px;
+    }
+    header>span{
+        display: none;
+    }
+    header{
+        display: flex;
+        justify-content: center;
+    }
+    .about-title>img{
+        width: 200px;
+    }
+   
+    .date>span{
+        font-size:12px;
+    }
+    .place>span{
+        font-size:12px;
+    }
+    #skills-content{
+        font-size: 15px;
+    }
+    #projects-content{  
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+    .about-title>h1{
+        font-size: 5vw;
+    }
+    .text>h1{
+        font-size: 4vw;
+    }
+    .text{
+        width: 700px;
+    }
+    .projects-title>h1{
+        font-size: 5vw;
+    }
+    .projects-title{
+        border-bottom: 1px solid white;
+    }
+    .stars{
+        transform: scale(0.6);
+    }
+    .info>h1{
+        font-size: 30px;
+    }
+    .info{
+        width: 80%;
+    }
+    #projects-content, #contact-content,  #skills-content, #about, .about-title,#header{
+        border-bottom: 1px solid white;
+    }
+
+}
